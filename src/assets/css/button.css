@@ -1,0 +1,15 @@
+.button {
+  border: 0;
+  background: #FFB62B;
+  color: #090A0F;
+  border-radius: 4px;
+  font: bold 16px 'Source Sans Pro', sans-serif;
+  height: 60px;
+  width: 100%;
+  text-transform: uppercase;
+  transition: background .2s;
+}
+
+.button:hover {
+  background: #8B5C01;
+}
