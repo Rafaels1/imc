@@ -1,0 +1,26 @@
+.footer {
+  bottom: 0;
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  width: 100%;
+}
+
+.link-git {
+  align-items: center;
+  color: #4F4F4F;
+  display: inline-flex;
+  margin: 0 0 30px 13px;
+  font-size: 12px;
+  text-decoration: none;
+  transition: color .2s, transform .2s;
+}
+
+.link-git img {
+  margin-right: 10px;
+}
+
+.link-git:hover {
+  color: #fff;
+  transform: translateX(5px);
+}
