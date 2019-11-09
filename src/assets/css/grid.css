@@ -1,0 +1,35 @@
+html {
+  position: relative;
+  overflow: hidden;
+}
+
+.bg-main {
+  background: #000 url('../images/background.png') no-repeat center top;
+  color: #fff;
+  font-family: 'Source Sans Pro', sans-serif;  
+}
+
+.bg-main::before {
+  background: #D8D8D8;
+  content: '';
+  display: block;
+  position: absolute;
+  height: 100%;
+  width: 1px;
+  top: 0;
+  left: 25px;
+}
+
+.bg-main::after {
+  background-image: linear-gradient(transparent -100%, #090A0F 90%);
+  content: '';
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+.container {
+  margin: 0 20px;
+}
